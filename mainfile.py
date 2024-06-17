@@ -52,8 +52,8 @@ def main(email,whatsapnumber):
             return
 
         #####twillio setup
-        account_sid = 'ACe8204da223184afdee29bcfc90980869' 
-        auth_token = '64d5e629736879505ff7fabaf5c6c4f8' 
+        account_sid = 'account_id' 
+        auth_token = 'account_token' 
         client = Client(account_sid, auth_token) 
         #####
 
